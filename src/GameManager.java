@@ -12,7 +12,7 @@ import org.newdawn.slick.SlickException;
 public class GameManager extends BasicGame {
 
     static {
-
+        LibraryLoader load = new LibraryLoader();
     }
 
     private static GameManager instance;
